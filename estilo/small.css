@@ -1,0 +1,13 @@
+div#iphone {
+    background: url(../pacote-d013/pacote-d013/imagens/frame-iphone-small.png) no-repeat;
+    height: 554px;
+    width: 275px;
+}
+
+iframe {
+    position: relative;
+    top: 70px;
+    left: 19px;
+    height: 417px;
+    width: 236px;
+}
