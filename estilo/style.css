@@ -4,22 +4,29 @@
     margin: 0px;
 }
 
-div#tela {
+#tela {
     height: 100vh;
     background: burlywood url(../pacote-d013/pacote-d013/imagens/fundo-madeira.jpg) center no-repeat fixed;
     background-size: cover;
-    position: relative;
+    /* position: relative; */
+
+    display: flex;
+    justify-content: flex-end;
 }
 
 div#iphone {
     background: url(../pacote-d013/pacote-d013/imagens/frame-iphone.png) no-repeat;
     height: 627px;
     width: 311px;
-    position: absolute;
+
+    align-self: center;
+    order: -1;
+    
+    /* position: absolute;
     top: 50%;
     left: 50%;
 
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
 }
 
 iframe {
@@ -37,6 +44,7 @@ div#display {
     align-items: flex-end;
     gap: 30px;
     padding: 15px;
+
 }
 
 img {
