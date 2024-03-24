@@ -1,13 +1,27 @@
 div#iphone {
     background: url(../pacote-d013/pacote-d013/imagens/frame-iphone-small.png) no-repeat;
-    height: 554px;
-    width: 275px;
+    height: 447px;
+    width: 222px;
 }
 
 iframe {
     position: relative;
-    top: 70px;
-    left: 19px;
-    height: 417px;
-    width: 236px;
+    top: 56px;
+    left: 16px;
+    height: 336px;
+    width: 190px;
+}
+
+div#display {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 30px;
+    padding: 15px;
+}
+
+img {
+    height: 45px;
+    width: 45px;
 }
