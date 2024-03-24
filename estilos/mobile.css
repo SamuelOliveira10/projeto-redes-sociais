@@ -41,7 +41,6 @@ div#display {
 }
 
 img {
-    display: inline;
     box-sizing: border-box;
     height: 45px;
     width: 45px;
