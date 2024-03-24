@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+#tela {
+    justify-content: flex-start;
+}
+
+#phone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+#display {
+}
