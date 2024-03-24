@@ -6,21 +6,24 @@
 }
 
 #tela {
+    width: 100vw;
     height: 100vh;
     background: burlywood url(../pacote-d013/pacote-d013/imagens/fundo-madeira.jpg) center no-repeat fixed;
     background-size: cover;
 
     display: flex;
-    flex-direction: row;
-    align-items: center;
     justify-content: space-evenly;
-
+    align-items: center;
+    
 }
 
 div#iphone {
+    display: inline-block;
+    
     background: url(../pacote-d013/pacote-d013/imagens/frame-iphone-small.png) no-repeat;
     height: 447px;
     width: 222px;
+    padding-right: 20px;
 
     order: -1;
 }
@@ -38,6 +41,8 @@ div#display {
     flex-direction: column;
     gap: 30px;
     padding: 15px;
+
+    float: right;
 }
 
 img {

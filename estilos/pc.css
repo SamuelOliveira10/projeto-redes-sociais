@@ -1,11 +1,39 @@
-/* div#iphone {
-    height: 627px;
+@charset "UTF-8";
+
+#tela {
+    display: block;
+    justify-content: flex-start;
+    position: relative;
+}
+
+div#iphone {
+    background: url(../pacote-d013/pacote-d013/imagens/frame-iphone.png) no-repeat;
     width: 311px;
+    height: 627px;
+    
+
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    margin: auto;
 }
 
 iframe {
     top: 80px;
     left: 22px;
     height: 471px;
-    width: 267px;
-} */
+    width: 267px; 
+}
+
+#display {
+    float: right;
+}
+
+img {
+    height: 60px;
+    width: 60px;
+}
